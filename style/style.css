@@ -1,0 +1,38 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+ }
+
+header{
+ display: flex;
+ justify-content: space-between;
+}
+
+.header_searchBar{
+  width: 41%;
+  display: flex;
+  align-items: center;
+  background-color: aliceblue;
+}
+
+.header_searchBar input{
+  border: 0;
+  outline: none;
+  width: 100%;
+  background-color: aliceblue;
+}
+
+.header_menu{
+  display: flex;
+}
+
+.header_menu > div{
+  padding: 20px;
+}
+
+.header_searchBar img{
+  display: inline-block;
+  margin: 0px 10px;
+}
+
