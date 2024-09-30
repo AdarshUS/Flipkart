@@ -10,17 +10,23 @@ header{
 }
 
 .header_searchBar{
-  width: 41%;
+  width: 46%;
   display: flex;
   align-items: center;
-  background-color: aliceblue;
+  background-color:#f1f5ff;
+  margin-top: 20px;
+  border-radius:10px;
+}
+
+.header_logo{
+  margin-left: 50px;
 }
 
 .header_searchBar input{
   border: 0;
   outline: none;
   width: 100%;
-  background-color: aliceblue;
+  background-color:#f1f5ff;
 }
 
 .header_menu{
@@ -28,7 +34,9 @@ header{
 }
 
 .header_menu > div{
-  padding: 20px;
+  padding: 20px;  
+  display: flex;
+  align-items: center;
 }
 
 .header_searchBar img{
