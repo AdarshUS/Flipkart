@@ -40,15 +40,26 @@ header{
   display: flex;
 }
 
+.header_menu-user img,.header_menu-cart img,.header_menu-seller img{
+  display:block;
+  margin:auto;
+}
+
+
 .header_menu > div{
   padding: 20px;  
   display: flex;
   align-items: center;
+ justify-content:center;
 }
 
 .header_searchBar img{
   display: inline-block;
   margin: 0px 10px;
+}
+
+.header_menu-text{
+  padding:0px 8px;
 }
 
 .ItemsContainer{
@@ -58,21 +69,43 @@ header{
   margin: 11px 15px;
   display:flex;
   align-items:center;
+  justify-content: center;
 }
 
 .ItemsContainer .ItemsContainer_box{
   display: flex; 
 }
 
-
-
-.ItemsContainer_box div{
-  width: 130px;
-  padding:10px;
+.ItemsContainer_box-Image{
+  display: flex;
+  justify-content: center;
 }
 
-.ItemsContainer_box:nth-child(2),.ItemsContainer_box:nth-child(3),.ItemsContainer_box:nth-child(7){
-  width:150px;
+.ItemsContainer_boxItem{
+  padding: 20px;
+}
+
+.ItemsContainer_boxItem:nth-child(7) {
+  margin-top: 11px;
+}
+
+.ItemsContainer_boxItem:nth-child(3) {
+  margin-top: 3px;
+}
+
+.ItemsContainer_boxItem:nth-child(4) {
+  margin-top: 4px;
+}
+
+.ItemsContainer_boxItem:nth-child(6) {
+  margin-top: 4px;
+}
+.ItemsContainer_boxItem:nth-child(9) {
+  margin-top: 9px;
+}
+
+.ItemsContainer_boxItem .caption{
+  padding: 8px 0px;
 }
 
 .ElectronicsBox1{
@@ -80,6 +113,8 @@ header{
   width: 64%;
   height: 250px;
   margin-left: 15px;
+  display: flex;
+  gap: 12px;
 }
 
 .ElectronicsBoxItems{
@@ -103,9 +138,19 @@ header{
 }
 
 .ElectronicsBox{
-  width: 97%;
+  width: 88%;
   background-color: #fff;
   margin: 11px 15px;
+  display: flex;
+}
+
+.box-1{
+  width: 97%;
+}
+
+.ElectronicsBox_text{
+  display: flex;
+  justify-content: space-between;
 }
 
 footer ul li{
