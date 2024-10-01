@@ -116,11 +116,18 @@ nav > div{
 
 main{
  display:flex;
+ background-color:#fff;
 }
 
 .main_productItem1-options{
   display: flex;
   gap: 20px;
+}
+
+.main_productItem1-itemText{
+  font-size: 11px;
+  color: #9d9a9a;
+  padding: 10px;
 }
 
 
