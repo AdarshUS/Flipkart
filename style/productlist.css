@@ -5,7 +5,7 @@
 }
 
 body{
- background-color:#f2f3f7;
+ 
  font-family: Inter, -apple-system, Helvetica, Arial, sans-serif;
 }
 
@@ -14,6 +14,9 @@ header{
  background-color:#2873f0;
  align-items: center;
  height: 56px;
+ position:sticky;
+ top: 0;
+ z-index: 12;
 }
 
 .header_searchBar{
@@ -79,7 +82,10 @@ nav > div{
 
 .main_filterContainer-filter{
   background-color:#fff;
-  width: 278px;
+  width: 304px;
+  padding: 14px;
+  border: 1px solid;
+  margin: 10px;
 }
 
 .filter_box{
@@ -116,19 +122,136 @@ nav > div{
 
 main{
  display:flex;
- background-color:#fff;
+ 
 }
 
 .main_productItem1-options{
   display: flex;
   gap: 20px;
+  padding: 5px 5px 0px 5px;
 }
+
+.main_productContainer{
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid;
+  width: 77%;
+}
+
+.main_productItem1{
+  border-bottom:2px solid #f4f4f4;
+} 
+
 
 .main_productItem1-itemText{
   font-size: 11px;
   color: #9d9a9a;
-  padding: 10px;
+  padding: 10px 0px;
 }
+
+.right-arrow{
+  padding: 0px 10px;
+}
+
+.main_productItem1 p{
+  font-weight: 600;
+  padding: 5px 0;
+}
+
+.main_productItemPhone{
+  display: flex;
+  padding: 20px;
+  border-bottom: 2px solid #f4f4f4;
+}
+
+.main_productItem1-options div{
+  font-size: 13px;
+}
+
+.sortBy{
+
+}
+
+.Relevance{
+ font-weight: 600;
+ color: #2873f0;
+}
+
+.phone_details{
+  width: 568px;
+  height: 248px;
+}
+
+.phone_image{
+  width: 200px;
+  height: 248px;
+}
+
+.phone_price{
+  width: 205px;
+  height: 248px;
+  margin-left: 72px;
+}
+
+.current_price{
+  font-weight: bold;
+  font-size: 23px;
+  font-weight: 500;
+}
+
+.phone_priceItem1{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.phone_descr{
+  font-weight: 600;
+  padding: 5px 0;
+}
+
+.rating{
+  border: 1px solid;
+  width: 42px;
+  background-color: #388e3c;
+  color: #fff;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+}
+
+.ratingContainer{
+  display: flex;
+  gap: 10px;
+}
+
+.ratingContainer p{
+  color: #918d93;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.Sponsored{
+  font-size: 13px;
+  color: #918d93;
+}
+
+.phone_details ul{  
+  padding: 13px 0px;
+}
+
+.phone_details ul li{
+  font-size: 14px;
+  margin: 4px;
+}
+
+.phone_details ul li::marker{
+  color: #c8c8c8;
+}
+
+
+
+
 
 
 
