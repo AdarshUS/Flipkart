@@ -119,15 +119,17 @@ nav > div{
   background-color: #f86718;
   color: #fff;
   margin-left: 35px;
+  display: inline-block;
 }
 
 .login-btn2{
-  dispay:block;
+  display:inline-block;
   text-decoration: none;
-  padding: 12px 137px;
+  padding: 12px 102px;
+  margin: 10px 0px;
   margin-left: 35px;
-  color:#2873f0;
-  border:1px solid;
+  color:#2873f0;  
+  box-shadow: rgba(14, 63, 126, 0.04) 0px 0px 0px 1px, rgba(42, 51, 69, 0.04) 0px 1px 1px -0.5px, rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px, rgba(42, 51, 70, 0.04) 0px 6px 6px -3px, rgba(14, 63, 126, 0.04) 0px 12px 12px -6px, rgba(14, 63, 126, 0.04) 0px 24px 24px -12px;
 }
 
 .Login_Box2 input{
