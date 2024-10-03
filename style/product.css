@@ -80,10 +80,7 @@ nav > div{
 .ImageContainer{
   display: flex;
   border: 1px solid black;
-}
-
-.buttonBox{
-  margin: 30px;
+  margin: 25px;
 }
 
 .buttonBox a i{
@@ -91,31 +88,167 @@ nav > div{
   padding: 10px;
 }
 
-.buttonBox a{
+.buttonBox .buttonBox_cart{
   text-decoration: none;
     color: #fff;
     background-color: #ff9f00;
-    padding: 19px 30px;
+    margin-right: 1vw;
+    width: 46%;
+    height: 8vh;
 }
 .buttonBox .buttonBox_buynow{
   background-color: #fb641b;
+   text-decoration: none;
+   color: #fff;
+   width: 43%;
 }
 
 .mainrightTopItem{
   display: flex;
   justify-content: space-between;
+  padding: 20px 20px 0px 20px;
+  align-items: center;
 }
 
 .mainrightTopItem2{
   display: flex;
   gap: 30px;
+  font-size: 15px;
 }
 
 .review{
   display: flex;
+  padding: 0px 20px;
+  align-items: center;
 }
 
 .rate{
   background-color: green;
   color: #fff;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  padding: 0 5px;
+  border-radius: 7px;
+  height: 21px;
 }
+
+.mainleft{
+  background-color: #fff;
+  margin-left: 6vw;
+}
+
+.mainright{
+  background-color: #fff;
+}
+
+.mainrightTopItem1{
+  font-size: 12px;
+  color: #a7a7a7;
+}
+
+.phoneName{
+  padding: 4px 20px;
+}
+
+.NumRate{
+  color: #8d838a;
+  font-size: 15px;
+  padding: 0px 5px;
+  font-weight: 600;
+}
+
+.offamt{
+  color: green;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 5px 20px;
+}
+
+.amount{
+  padding: 1px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.amount_current{
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.amount del{
+  padding: 0 6px;
+  color:#8d838a;
+}
+
+.info{
+  padding: 0 5px;
+}
+
+.package_fee{
+  padding-left: 20px;
+}
+
+.off_percent{
+  color: green;
+}
+
+.avl_offer{
+  padding: 8px 20px;
+  font-weight: 600;
+}
+
+.offer_list{
+  list-style-type: none;
+  font-size: 14px;
+}
+
+.offer_list li{
+  padding-left: 14px;
+}
+
+.offer_list li .tag{
+  color: green;
+  padding: 0 9px;
+}
+
+.offer_list li .priceBold{
+  font-weight:bold;
+}
+
+.ExchangeBox{
+  width: 390px;
+  border: 1px solid #dfdfdf;
+}
+
+.Buy_without{
+  display: flex;
+  justify-content: space-between;
+  background-color: #f5fafe;
+  padding: 12px;
+}
+
+.Buy_without input,.Buy_withRow1 input{
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.Buy_withRow1{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 12px;
+}
+
+.Buy_withoutItem1{
+  font-size: 15px;
+}
+
+.Buy_withItem2{
+  font-size: 13px;
+}
+
+.Buy_withItem3{
+  font-size: 15px;
+}
+
+

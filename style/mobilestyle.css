@@ -1,0 +1,81 @@
+body{
+ background-color:#f2f3f5;
+}
+
+.mobile_header{
+ padding:10px;
+}
+
+.flipLogo{
+  display: inline-block;
+  margin: 0 12px;
+}
+
+.varaint{
+  padding: 20px;
+  border-bottom: 1px solid #a7a7a7;
+}
+
+.color{
+  border-bottom: 1px solid #a7a7a7;
+  padding: 15px;
+}
+
+.storage{
+  padding: 15px;
+  border-bottom: 1px solid #a7a7a7;
+}
+
+.chipSet{
+  background-color: #c0def9;
+  color: #5c82b1;
+  margin-left: 15px;
+}
+
+.phone_Caption{
+  margin-top: 9px;
+}
+
+.phone_CaptionName{
+  padding: 9px 13px;
+}
+
+.ratingBox{
+  padding-left: 13px;
+}
+
+.trophy{
+  font-size: 31px;
+  color: blue;
+}
+
+.offerBox_Item1{
+  display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.offerBox{
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #5c82b1;
+    background-color: #d3e3fd;
+    padding: 23px;
+}
+
+.freedelivery{
+  font-size: 13px;
+    padding-left: 12px;
+}
+
+.off-percent{
+  font-size: 21px;
+    font-weight: 600;
+}
+del{
+  font-size: 22px;
+    font-weight: 600;
+    color: #a7a7a7;
+    padding: 0 9px;
+}
