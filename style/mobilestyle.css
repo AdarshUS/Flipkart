@@ -30,11 +30,11 @@ body{
 .chipSet{
   background-color: #c0def9;
   color: #5c82b1;
-  margin-left: 15px;
+  margin-left: 2vw;
 }
 
 .phone_Caption{
-  margin-top: 9px;
+  margin-top: 1vh;
 }
 
 .phone_CaptionName{
@@ -261,4 +261,20 @@ body{
 
 .mobile_phoneImage{
   position: relative;
+}
+
+.color_text{
+  font-size: 4vw;
+}
+
+.5_more{
+  font-size: 4vw;
+}
+
+.storage_value{
+  font-size: 4vw;
+}
+
+.3_more{
+  font-size: 4vw;
 }
