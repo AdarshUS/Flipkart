@@ -1,7 +1,7 @@
 <!Doctype html>
 <html>
   <head>
-   <title>ProductList Page</title>  
+   <title>Cart Page</title>  
    <link rel="stylesheet" href="style/CartStyle.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
@@ -14,10 +14,7 @@
         <input type="text" placeholder="Search for Products, Brands and More">
         <div class="glass_container"><i class="fa-solid fa-magnifying-glass glass"></i></div>
       </div>
-      <a href="#" class="login-btn">Login</a>
-      <div class="header_seller">Become a Seller</div>
-      <div class="header_more"><span class="header-text">More</span><i class="fa-solid fa-angle-down"></i></div>
-      <div class="header_cart"><i class="fa-solid fa-cart-shopping"></i><span class="header-text">Cart</span></div>
+      <a href="#" class="login-btn">Login</a>      
     </header>   
     <main>
       <div class="main_box1">
@@ -43,10 +40,10 @@
             <div class="phoneDetails">
               <div class="phoneName">Apple iPhone 15 (Black, 128 GB)</div>
               <div class="seller-retail">
-                <span>Seller:NGIVR RETAILS</span>
+                <span class="seller_name">Seller:NGIVR RETAILS</span>
                 <img src="./Assets/images/flipkartAssured.PNG" alt="flipkart" width="60">
               </div>
-              <div class="phoneDetails_price"><del>&#8377;69,900</del><span>&#8377;57,900</span><span class="green-text">17&#x0025; off 1 offer applied</span><span class="green-text info"><i class="fa-solid fa-circle-info"></i></span></div>
+              <div class="phoneDetails_price"><del class="old-price">&#8377;69,900</del><span class="current-price">&#8377;57,900</span><span class="green-text">17&#x0025; off 1 offer applied</span><span class="green-text info"><i class="fa-solid fa-circle-info"></i></span></div>
               <div><span>&#43;</span><span>&#8377;99</span><span>Secured Packaging Fee</span></div>            
             </div>
             <div class="deliverydate">
@@ -74,11 +71,11 @@
                 <span>Seller:NGIVR RETAILS</span>
                 <img src="./Assets/images/flipkartAssured.PNG" alt="flipkart" width="60">
               </div>
-              <div class="phoneDetails_price"><del>&#8377;69,900</del><span>&#8377;57,900</span><span class="green-text">17&#x0025; off 1 offer applied</span><span class="green-text info"><i class="fa-solid fa-circle-info"></i></span></div>
-              <div><span>&#43;</span><span>&#8377;99</span><span>Secured Packaging Fee</span></div>            
+              <div class="phoneDetails_price"><del>&#8377;69,900</del><span>&#8377;57,900</span><span class="green-text offer-applied">17&#x0025; off 1 offer applied</span><span class="green-text info"><i class="fa-solid fa-circle-info"></i></span></div>
+              <div class="packaging-fee"><span>&#43;</span><span>&#8377;99</span><span>Secured Packaging Fee</span></div>            
             </div>
             <div class="deliverydate">
-              Delivery by Sun Oct 6 |<del>&#8377;40</del><span class="green-text">Free</span>
+              Delivery by Sun Oct 6 |<del class="old_deliveryFee">&#8377;40</del><span class="green-text">Free</span>
             </div>
           </div>
           <div class="protectionBox">

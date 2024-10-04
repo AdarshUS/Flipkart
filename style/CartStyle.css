@@ -164,6 +164,7 @@ main{
 .deliverydate{
   margin-left: 120px;
   margin-top: 12px;
+ font-size: 14px;
 }
 
 .No_ofItems{
@@ -180,11 +181,12 @@ main{
 .minus,.plus{
   width: 20px;
     height: 20px;
-    border: 1px solid;
+    border: 1px solid #8c8f92;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 12px;
 }
 .one{
   width: 30px;
@@ -227,5 +229,32 @@ main{
   padding: 20px;
 }
 
+.seller_name{
+  font-size: 13px;
+  color: #95938d;
+}
+
+.old-price{
+  font-weight: 600;
+  color: #95938d;
+  font-size: 14px;
+}
+
+.current-price{
+  font-weight: 600;
+  padding: 0 10px;
+}
+
+.offer-applied{
+ font-size: 14px;
+}
+
+.packaging-fee{
+  font-size: 14px;
+}
+
+.old_deliveryFee{
+  padding: 0 7px;
+}
 
 
