@@ -22,6 +22,10 @@
     <img src="Assets/images/iphone15.png" alt="iphone" width="90%">
   </div>
   <div class="varaint bg-white">Select Variant</div>
+  <div class="mobile_Buttons position-fixed d-flex w-100">
+    <div class="mobile_Buttons_cart">Add to cart</div>
+    <div class="mobile_Buttons_buy">Buy now</div>
+  </div>
   <div class="color d-flex justify-content-between bg-white">
     <div>Color:Black</div>
     <div>5 more <i class="fa-solid fa-angle-right"></i></div>
@@ -40,7 +44,7 @@
       <div><img src="Assets/images/flipkartAssured.png" alt="" width=70></div>     
     </div>
     <div><img src="Assets/images/discountSale.png" alt="" class="discountSaleimg"></div>
-    <div><span class="off-percent">17% off</span><del>69,900</del><span class="old_price">₹57,999</span></div>
+    <div><span class="off-percent">17% off</span><del class="Last_price">69,900</del><span class="old_price">₹57,999</span></div>
     <div class="freedelivery">Free delivery by 6th Oct</div>
     <div class="offerBox">
       <div class="offerBox_Item1">
@@ -57,36 +61,85 @@
    <div>Find a seller that delivers to you</div>
    <div class="pincode_box">Enter pincode</div>
   </div>
-  <div>
-    <i class="fa-solid fa-truck"></i>
-    <div class="delivery_detail">
-      <div>Free Delivery<del>₹40</del><span>. Delivery by 6 Oct, Sunday</span></div>
-      <div>If ordered within 44m 57s</div>
-    </div>
+  <div class="delivery_Container bg-white">
+   <div class="delivery_ContainerItem1 d-flex align-items-center gap-2">
+     <i class="fa-solid fa-truck truck"></i>
+     <div class="delivery_detail">
+       <div><span class="freeDeliverytext">Free Delivery</span><del class="px-1 last_deliveryFee">₹40</del><span>. Delivery by 6 Oct, Sunday</span></div>
+       <div>If ordered within 44m 57s</div>
+     </div>
+   </div>   
     <span><i class="fa-solid fa-angle-right"></i></span>
   </div>
-  <div>
-    <div>
-      <img src="" alt="">
+  <div class="Phone_serviceBox bg-white">
+    <div class="Phone_serviceBox1">
+      <img src="Assets/images/serviceCenter.png" alt="">
       <p>7 Days Service Center Replacement/Repair</p>
     </div>
-    <div>
-      <img src="" alt="">
+    <div class="Phone_serviceBox2">
+      <img src="Assets/images/cashOnDelivery.png" alt="">
       <p>Cash on Delivery available</p>
     </div>
-    <div>
-      <img src="" alt="">
+    <div class="Phone_serviceBox3">
+      <img src="Assets/images/flipkartAssured.png" alt="" width=50>
       <div>F-assured</div>
     </div>
   </div>
-  <div>
-    <img src="" alt="">
-    <p>1 Year Warranty for Phone and 6 Months Warranty for In-box Accessories <span>Know More</span></p>
+  <div class="Warranty-details d-flex justify-content-between bg-white">
+    <i class="fa-brands fa-apple apple"></i>
+    <p>1 Year Warranty for Phone and 6 Months Warranty for In-box Accessories <span class="know_more">Know More</span></p>
   </div>
+  <div class="couponBox d-flex justify-content-between align-items-center">
+    <div><span>Show more</span><i class="fa-solid fa-angle-down"></i></div>
+    <div class="pincode_box bg-primary text-white p-2">Change Pincode</div>
   </div>
-
-
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script> 
+  <div class="Highlights bg-white">
+    <div class="HighlightsHeader d-flex justify-content-between align-items-center">
+      <span class="highlight_cap">Highlights</span>
+      <div class="SearchBar"><i class="fa-solid fa-magnifying-glass magnifying-lens"></i><span class="search_text">Search</span></div>
+    </div>
+    <div class="HighlightsItem d-flex gap-2">
+      <div><img src="Assets/images/RAM.png" alt="ram"></div>
+      <div>
+        <div class="HighlightsItemText1">RAM |ROM</div>
+        <div class="HighlightsItemText2">128 GB ROM</div>
+        <div class="HighlightsItemText3">Store upto 3000 photos</div>
+      </div>
+    </div>
+    <div class="HighlightsItem d-flex gap-2">
+      <div><img src="Assets/images/processor.png" alt="ram"></div>
+      <div>
+        <div class="HighlightsItemText1">Processor</div>
+        <div class="HighlightsItemText2">A16 Bionic Chip,6 Core Processor|Hexa Core</div>
+        <div class="HighlightsItemText3">Superfast Multitasking.Extensive Gaming</div>
+      </div>
+    </div>
+    <div class="HighlightsItem d-flex gap-2">
+      <div><img src="Assets/images/rearCamera.png" alt="ram"></div>
+      <div>
+        <div class="HighlightsItemText1">Rear Camera</div>
+        <div class="HighlightsItemText2">48MP + 12MP</div>
+        <div class="HighlightsItemText3">DSLR Like Pictures & Great Zoom</div>
+      </div>
+    </div>
+    <div class="HighlightsItem d-flex gap-2">
+      <div><img src="Assets/images/frontCamera.png" alt="ram"></div>
+      <div>
+        <div class="HighlightsItemText1">Front Camera</div>
+        <div class="HighlightsItemText2">12MP</div>
+        <div class="HighlightsItemText3">Attractive Seelfies with Clear & Sharp Colors</div>
+      </div>
+    </div>
+    <div class="HighlightsItem d-flex gap-2">
+      <div><img src="Assets/images/RAM.png" alt="ram"></div>
+      <div>
+        <div class="HighlightsItemText1">Display</div>
+        <div class="HighlightsItemText2">6.1 inch All Screen OLED Display</div>
+        <div class="HighlightsItemText3">Immersive Display.Enhanced Viewing Experience</div>
+      </div>
+    </div>
+    <div class="otherDetailList">Other Details</div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
  </body>
 </html>

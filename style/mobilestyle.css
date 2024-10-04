@@ -62,7 +62,7 @@ body{
     border: 1px solid #5c82b1;
     background-color: #d3e3fd;
     padding: 23px;
-    margin: 20px;
+    margin: 12px;
 }
 
 .freedelivery{
@@ -76,7 +76,7 @@ body{
     color: green;
     padding-left: 12px;
 }
-del{
+.Last_price{
   font-size: 22px;
     font-weight: 600;
     color:#737373;
@@ -119,8 +119,112 @@ del{
     border-radius: 4px;
 }
 
-.delivery_detail{
+.delivery_Container{
   display: flex;
-    align-items: center;
-    justify-content: space-between;
+  justify-content: space-between;
+  padding: 10px;
+  align-items:center;
+}
+
+.truck{
+  padding: 8px;
+}
+
+.freeDeliverytext{
+  color: green;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.last_deliveryFee{
+  font-weight: 600;
+  color: #737373;
+}
+
+.Phone_serviceBox{
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.Phone_serviceBox1{
+  width: 153px;
+  text-align: center;
+}
+
+.Phone_serviceBox2,.Phone_serviceBox3{
+  text-align: center;
+}
+
+.Warranty-details{
+  padding: 20px;
+  margin-top: 12px;
+}
+
+.Warranty-details p{
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.apple{
+  font-size: 35px;
+  padding: 0 13px;
+}
+
+.know_more{
+  color: blue;
+}
+
+.couponBox{
+  padding: 10px;
+}
+
+.SearchBar{
+  border: 1px solid #e3d3d3;
+  color: blue;
+  padding: 4px 20px;
+}
+
+.magnifying-lens{
+  font-size: 13px;
+  padding: 0px 6px;
+}
+
+.search_text{
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.Highlights{
+  padding: 15px;
+}
+
+.HighlightsItem{
+  padding: 8px 0px;
+}
+
+.highlight_cap{
+  font-weight: 500;
+}
+
+.HighlightsItemText1{
+  color: #a7a7a7;
+}
+
+.HighlightsItemText2{
+  font-weight: 400;
+}
+
+.HighlightsItemText3{
+  font-size: 13px;
+  color: #a7a7a7;
+}
+
+.mobile_Buttons_cart{
+  padding:16px;
+}
+
+.mobile_Buttons_buy{
+  padding:30px;
+  background-color:yellow;
 }
