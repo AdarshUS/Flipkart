@@ -3,7 +3,7 @@ body{
 }
 
 .mobile_header{
- padding:10px;
+ padding:26px 30px;;
 }
 
 .flipLogo{
@@ -14,6 +14,7 @@ body{
 .varaint{
   padding: 20px;
   border-bottom: 1px solid #a7a7a7;
+  font-size:3rem;
 }
 
 .color{
@@ -221,10 +222,43 @@ body{
 }
 
 .mobile_Buttons_cart{
-  padding:16px;
+  padding: 2rem 7rem;
+  width: 50%;
+  background-color: #fff;
+  font-size: 3rem;
 }
 
 .mobile_Buttons_buy{
-  padding:30px;
-  background-color:yellow;
+  padding:2rem 9rem;
+  background-color: #fec200;
+  width: 50%;
+  font-size: 3rem;
+}
+
+.mobile_header-left{
+  display: flex;
+  align-items: center;
+}
+
+.arrow_left{
+  font-size: 3rem;
+}
+
+.mobile_header-right{
+  font-size: 3rem;
+}
+
+.best_seller{
+  position: absolute;
+  font-size: 2rem;
+  background-color: #0a9391;
+  top: 50px;
+  color: #fff;
+  padding: 3px;
+  font-weight: 500;
+  border-radius: 3px;
+}
+
+.mobile_phoneImage{
+  position: relative;
 }
