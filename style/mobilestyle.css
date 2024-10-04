@@ -62,6 +62,7 @@ body{
     border: 1px solid #5c82b1;
     background-color: #d3e3fd;
     padding: 23px;
+    margin: 20px;
 }
 
 .freedelivery{
@@ -72,10 +73,54 @@ body{
 .off-percent{
   font-size: 21px;
     font-weight: 600;
+    color: green;
+    padding-left: 12px;
 }
 del{
   font-size: 22px;
     font-weight: 600;
-    color: #a7a7a7;
+    color:#737373;
     padding: 0 9px;
+}
+
+.ratingNum{
+  font-size: 13px;
+  color: #424fc8;
+}
+
+.starBox{
+  color: green;
+    font-size: 12px;
+}
+
+.discountSaleimg{
+  display: inline-block;
+  margin-left: 12px;
+}
+
+.old_price{
+  font-size: 22px;
+    font-weight: 600;
+}
+
+.seller_details{
+  display: flex;
+    justify-content: space-between;
+    padding: 18px;
+    background-color: white;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.pincode_box{
+  color: blue;
+    font-size: 13px;
+    border: 1px solid #8c8c8c;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+.delivery_detail{
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
