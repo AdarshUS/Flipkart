@@ -1,4 +1,4 @@
-*{
+ *{
  padding:0;
  margin:0;
  box-sizing:border-box;
@@ -73,7 +73,7 @@ nav{
 
 nav > div{
  padding: 0 28px;
- font-weight: 500;
+ font-weight: 600;
  font-size:14px;
 }
 
@@ -95,12 +95,18 @@ nav > div{
     margin-right: 1vw;
     width: 46%;
     height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .buttonBox .buttonBox_buynow{
   background-color: #fb641b;
    text-decoration: none;
    color: #fff;
    width: 43%;
+   display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .mainrightTopItem{
@@ -136,10 +142,14 @@ nav > div{
 .mainleft{
   background-color: #fff;
   margin-left: 6vw;
+  position: sticky;
+  height: 100vh;
+  top: 2px;
 }
 
 .mainright{
   background-color: #fff;
+  width: 60%;
 }
 
 .mainrightTopItem1{
@@ -204,7 +214,7 @@ nav > div{
 }
 
 .offer_list li{
-  padding-left: 14px;
+  padding: 5px 14px;
 }
 
 .offer_list li .tag{
@@ -249,6 +259,260 @@ nav > div{
 
 .Buy_withItem3{
   font-size: 15px;
+}
+
+.more_offers{
+  color: #2873f0;
+  padding-left: 1vw;
+}
+
+.applelogoBox{
+   border: 1px solid #c8c8c8;
+   display: inline-block;
+   padding: 5px 28px;
+}
+
+.apple-logo{
+  font-size: 21px;
+}
+
+.know_more{
+  color: #5c7dc8;
+  padding: 0.5rem;
+  font-weight: 600;
+}
+
+.colorContainer{
+  display:flex;
+}
+
+.colorContainer_storage{
+  display: flex;
+}
+
+.warrantyrow{
+  display: flex;
+  align-items: center;
+  padding: 2rem 0 1rem 0rem;
+}
+
+.storage_value{
+   border: 1px solid blue;
+   color: blue;
+   padding: 6px;
+   font-weight: 600;
+   margin: 0 1rem;
+}
+
+.storage_value2{
+  border: 1px solid #adaaa1;
+  color:#000;
+}
+
+.inputBar{
+   border-bottom: 2px solid blue;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 18vw;
+}
+
+.inputBar input{
+   border: 0;
+   outline: none;
+   width: 100%;
+}
+
+.delivery_date{
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.free_text{
+  font-size: 14px;
+  color: green;
+}
+
+.old-dp{
+  padding: 0 5px;
+}
+
+.colorContainer_text{
+  color: #757678;
+}
+
+.deliveryContainerText{
+  color: #757678;
+}
+
+.ordered_before{
+  font-size: 13px;
+}
+
+.viewDetails{
+  font-size: 14px;
+  color: #2873f0;
+}
+
+.highlightsContainer{
+  display: flex;
+}
+
+.highlightText{
+  color: #757678;
+}
+
+.easy_payment ul,.highlightsContainer ul {
+  font-size: 14px;
+}
+ 
+.easy_payment ul li,.highlightsContainer ul li{
+  padding: 3px;
+}
+
+.easy_payment{
+  display: flex;
+}
+
+.easy_payopt{
+  color: #757678;
+}
+
+.view-details{
+   padding-left: 18px;
+   font-size: 14px;
+   color: #2873f0;
+}
+
+.Seller{
+  display: flex;
+}
+
+.seller_text{
+  color: #757678;
+}
+
+.retailDetails_row{
+  display: flex;
+}
+
+.ngretails{
+  color: #2873f0;
+  font-size: 13px;
+}
+
+.retail_rate{
+  background-color: #2873f0;
+    color: #fff;
+    font-size: 12px;
+    width: 11%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 0 9px;
+}
+.Description_text{
+  color: #757678;
+  padding: 10px;
+
+}
+
+.seeOther{
+  color: #2873f0;
+}
+
+.Description{
+  display: flex;
+}
+
+.dynamic_note{
+  padding: 10px;
+}
+
+.productDescription{
+  font-size: 20px;
+   font-weight: 600;
+}
+
+.dynamicisland{
+  display: flex;
+}
+
+.dynamicisland_text{
+  font-weight: 600;
+}
+
+.higlydurabl{
+  display: flex;
+}
+
+.higlydurablcap{
+  font-weight: 600;
+}
+
+.higlydurablnote{
+  padding: 12px;
+}
+
+.viewAllfea{
+  color: #2873f0;
+}
+
+.specifications{
+  font-weight: 600;
+  font-size: 19px;
+}
+
+.generalBoxrow{
+   display: flex;
+   font-size: 14px;
+   padding: 3px 0px;
+}
+
+.generalBoxrowItem1{
+  width:22%;
+}
+
+.specifications{
+  padding: 20px 0px;
+}
+
+.general_text{
+  padding: 7px 0;
+}
+
+.readmore{
+  font-size: 14px;
+  color: #2873f0;
+}
+
+.RatingReviewrow1{
+  display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.RatingReviewText{
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.rt-product{
+   border: 1px solid;
+   padding: 9px 28px;
+   font-weight: 600;
+}
+
+.RatingReviewrow2{
+   display: flex;
+   font-size: 13px;
+   justify-content: space-between;
+   padding: 15px;
+}
+
+.overall_rate{
+  font-size: 18px;
 }
 
 

@@ -4,8 +4,7 @@
  box-sizing:border-box;
 }
 
-body{
- 
+body{ 
  font-family: Inter, -apple-system, Helvetica, Arial, sans-serif;
  background-color: #f1f3f6;
 }
@@ -85,6 +84,7 @@ main{
 .main_box1{
   width: 865.03px;
   margin-right: 13px;
+  border: 2px solid #eaeaed;
 }
 
 .homebox{
@@ -167,6 +167,10 @@ main{
  font-size: 14px;
 }
 
+.deliverydate del{
+  padding: 0 6px;
+}
+
 .No_ofItems{
   display: flex;
   gap: 23px;
@@ -176,6 +180,7 @@ main{
 
 .No_ofItems-Buttons{
   display: flex;
+  align-items: center;
 }
 
 .minus,.plus{
@@ -191,11 +196,12 @@ main{
 .one{
   width: 30px;
     height: 20px;
-    border: 1px solid;
-    display: flex;
+       display: flex;
     align-items: center;
     justify-content: center;
     margin: 0px 6px;
+   padding: 12px 20px;
+    border: 1px solid #8c8f92;
 }
 
 .phoneCartItemsContainer{
@@ -214,19 +220,16 @@ main{
   border-bottom: 1px dotted;
 }
 
-.priceCalculate div{
-  padding: 10px;
-}
-
 .totalamt{
   display: flex;
   justify-content: space-between;
-  padding: 20px 20px 20px 0;
+  padding: 20px 20px 20px 20px;
   border-bottom: 1px solid;
 }
 
 .saving-amt{
   padding: 20px;
+  font-weight: 600;
 }
 
 .seller_name{
@@ -246,15 +249,131 @@ main{
 }
 
 .offer-applied{
- font-size: 14px;
+ font-size: 15px;
 }
 
 .packaging-fee{
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .old_deliveryFee{
   padding: 0 7px;
 }
 
+.save_later{
+  font-weight: 500;
+  font-size: 16px;
+}
 
+.protectionBoxcontent{
+  display: flex;
+    gap: 40px;
+}
+
+.AddItem{
+  background-color: #ff9f00;
+    color: #fff;
+    padding: 14px 4px;
+    text-align: center;
+ }
+
+.AddItemBox{
+  width: 180px;
+ }
+
+.protectionBox{
+  padding: 16px;
+  background-color: #f4f9ff;
+}
+
+.mobile_protectionText{
+  margin-bottom: 20px;
+}
+
+.1year_text{
+  font-size: 14px;
+    color: #adaaa1;
+    padding: 3px 0;
+}
+
+.protection_price{
+  padding: 10px 0;
+}
+
+.protection_Currentprice{
+  font-weight: 600;
+    font-size: 15px;
+}
+
+.protection_Oldprice{
+  color: #adaaa1;
+}
+
+.No_ofItemsCount{
+  padding: 10px 26px;
+}
+
+.placeOrder_Container{
+  height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: sticky;
+    bottom: 0;
+    background-color: #fff;
+}
+
+.placeOrder_Box{
+  background-color: #fb641b;
+    color: #fff;
+    padding: 13px 46px;
+}
+
+.priceCalculate_Item1,.priceCalculate_Item2{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 25px 0 25px;
+}
+
+.priceCalculate_Item3{
+   display: flex;
+   justify-content: space-between;
+   padding: 12px 25px;
+}
+
+.priceCalculate_Item3-oldFee{
+   padding: 0 7px;
+   color: #757678;
+}
+
+.priceCalculate_Item4{
+  padding: 7px 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  font-size: 13px;
+  color: #757678;
+}
+
+.footer_Item1{
+  display: flex;
+  padding-left: 25px;
+}
+
+.copyright{
+  padding: 0 20px;
+}
+
+.need_help{
+  padding: 0 29px;
+}
+
+.blue-text{
+  color: #6384d2;
+}
