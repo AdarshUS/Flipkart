@@ -1,0 +1,60 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+   }
+   
+   body{
+    background-color:#f2f3f7;
+    font-family:arial;
+   }
+   
+   header{
+    display:flex;
+    background-color:#2873f0;
+    align-items: center;
+    height: 56px;
+   }
+   
+   
+   
+   .header_logo{
+     margin-left: 11%;
+   }
+   
+   
+   
+   
+   
+   .header_seller,.header_more,.header_cart{
+      margin: 0 30px;
+      color:#fff;
+   font-weight:500;
+   }
+   .glass{
+     color:#2873f0;
+   }
+   
+   .glass_container{
+     padding: 0 10px;
+   }
+   
+   .header-text{
+     padding:0 8px;
+   }
+   
+   nav{
+    display:flex;
+    height: 35px;
+    border-bottom: 1px solid #d2d3d6;
+    align-items: center;
+    justify-content: center;
+    background-color:#fff;
+   }
+   
+   nav > div{
+    padding: 0 28px;
+    font-weight: 600;
+    font-size:14px;
+   }
+   

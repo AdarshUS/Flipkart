@@ -1,19 +1,19 @@
 *{
- padding:0;
- margin:0;
- box-sizing:border-box;
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
 }
 
 body{
- background-color:#f2f3f7;
- font-family:arial;
+  background-color:#f2f3f7;
+  font-family:arial;
 }
 
 header{
- display:flex;
- background-color:#2873f0;
- align-items: center;
- height: 56px;
+  display:flex;
+  background-color:#2873f0;
+  align-items: center;
+  height: 56px;
 }
 
 .header_searchBar{
@@ -46,9 +46,9 @@ header{
 }
 
 .header_seller,.header_more,.header_cart{
-   margin: 0 30px;
-   color:#fff;
-font-weight:500;
+  margin: 0 30px;
+  color:#fff;
+  font-weight:500;
 }
 .glass{
   color:#2873f0;
@@ -63,18 +63,18 @@ font-weight:500;
 }
 
 nav{
- display:flex;
- height: 35px;
- border-bottom: 1px solid #d2d3d6;
- align-items: center;
- justify-content: center;
- background-color:#fff;
+  display:flex;
+  height: 35px;
+  border-bottom: 1px solid #d2d3d6;
+  align-items: center;
+  justify-content: center;
+  background-color:#fff;
 }
 
 nav > div{
- padding: 0 28px;
- font-weight: 500;
- font-size:14px;
+  padding: 0 28px;
+  font-weight: 500;
+  font-size:14px;
 }
 
 .Login_container{
@@ -165,15 +165,14 @@ nav > div{
 
 .Login_Box2-bottomText{
   color:#2873f0;
- font-size:14px;
- margin-top: 61%;
- margin-left: 127px;
- font-weight: 600;
+  font-size:14px;
+  margin-top: 61%;
+  margin-left: 127px;
+  font-weight: 600;
 }
 
-footer{
- display:flex;
- background-color:#172437;
+ footer{                                                    
+background-color:#172437;
  color:#fff;
  height:351px;
 }
@@ -194,6 +193,25 @@ footer{
   line-height:25px;
 }
 
+.footer_Container{
+  display: flex;
+}
+
 contact{
   line-height:18px;
 }
+
+.footerBottom_container{
+  display: flex;
+  justify-content: space-around;
+  font-size: 13px;
+}
+
+.suitcase,.star,.gift-card,.Question,.cpright{
+  padding: 0 6px;
+}
+
+.suitcase,.star,.gift-card,.Question{
+  color: yellow;
+}
+
