@@ -213,18 +213,18 @@ main{
 .main_box2-caption{
   color: #898989;
   padding: 20px;
-  border-bottom: 1px solid;
+  border-bottom: 1px solid #dfdfdf;
 }
 
 .priceCalculate{
-  border-bottom: 1px dotted;
+  border-bottom: 1px dashed #dfdfdf;
 }
 
 .totalamt{
   display: flex;
   justify-content: space-between;
   padding: 20px 20px 20px 20px;
-  border-bottom: 1px solid;
+  border-bottom: 1px dashed #dfdfdf;
 }
 
 .saving-amt{
@@ -267,7 +267,8 @@ main{
 
 .protectionBoxcontent{
   display: flex;
-    gap: 40px;
+  gap: 40px;
+  padding: 15px;
 }
 
 .AddItem{
@@ -278,7 +279,7 @@ main{
  }
 
 .AddItemBox{
-  width: 180px;
+  width: 272px;
  }
 
 .protectionBox{
@@ -286,9 +287,6 @@ main{
   background-color: #f4f9ff;
 }
 
-.mobile_protectionText{
-  margin-bottom: 20px;
-}
 
 .1year_text{
   font-size: 14px;
@@ -376,4 +374,9 @@ footer{
 
 .blue-text{
   color: #6384d2;
+}
+
+.protectionBoxCap{
+   font-weight: 600;
+   font-size: 15px;
 }
