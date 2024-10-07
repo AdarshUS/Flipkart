@@ -278,6 +278,50 @@ main{
   font-size: 14px;
 }
 
+footer{                                                    
+  background-color:#172437;
+   color:#fff;
+   height:351px;
+  }
+  
+  .footerItem{
+    font-size:13px;
+    width: 345px;
+    padding: 40px;
+  }
+  
+  .footerItemCaption{
+    color:#606971;
+    padding: 10px 0px;
+  }
+  
+  .footerItem ul li{
+    list-style-type:none;
+    line-height:25px;
+  }
+  
+  .footer_Container{
+    display: flex;
+  }
+  
+  contact{
+    line-height:18px;
+  }
+  
+  .footerBottom_container{
+    display: flex;
+    justify-content: space-around;
+    font-size: 13px;
+  }
+  
+  .suitcase,.star,.gift-card,.Question,.cpright{
+    padding: 0 6px;
+  }
+  
+  .suitcase,.star,.gift-card,.Question{
+    color: yellow;
+  }
+
 
 
 
