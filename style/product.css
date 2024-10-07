@@ -9,8 +9,7 @@ body{
  font-family:arial;
 }
 
-header{
- display:flex;
+header{ 
  background-color:#2873f0;
  align-items: center;
  height: 56px;
@@ -515,4 +514,361 @@ nav > div{
   font-size: 18px;
 }
 
+.mobile_header{
+ padding:26px 30px;;
+}
+
+.flipLogo{
+  display: inline-block;
+  margin: 0 12px;
+}
+
+.varaint{
+  padding: 20px;
+  border-bottom: 1px solid #a7a7a7;
+  font-size:3rem;
+}
+
+.color{
+  border-bottom: 1px solid #a7a7a7;
+  padding: 15px;
+}
+
+.storage{
+  padding: 15px;
+  border-bottom: 1px solid #a7a7a7;
+}
+
+.chipSet{
+  background-color: #c0def9;
+  color: #5c82b1;
+  margin-left: 2vw;
+}
+
+.phone_Caption{
+  margin-top: 1vh;
+}
+
+.phone_CaptionName{
+  padding: 9px 13px;
+}
+
+.ratingBox{
+  padding-left: 13px;
+}
+
+.trophy{
+  font-size: 31px;
+  color: blue;
+}
+
+.offerBox_Item1{
+  display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.offerBox{
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #5c82b1;
+    background-color: #d3e3fd;
+    padding: 30px;
+    margin: 30px;
+}
+
+.freedelivery{
+   font-size: 2rem;
+    padding-left: 12px;
+}
+
+.off-percent{
+    font-size: 4rem;
+    font-weight: 600;
+    color: green;
+    padding-left: 12px;
+}
+.Last_price{
+    font-size: 4rem;
+    font-weight: 600;
+    color:#737373;
+    padding: 0 9px;
+}
+
+.ratingNum{
+  font-size: 2rem;
+  color: #424fc8;
+}
+
+.starBox{
+  color: green;
+  font-size: 2rem;
+}
+
+.discountSaleimg{
+  display: inline-block;
+  margin-left: 12px;
+}
+
+.old_price{
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.seller_details{
+  display: flex;
+    justify-content: space-between;
+    padding: 39px;
+    background-color: white;
+    border-bottom: 3px solid #e6e6e6;
+}
+
+.pincode_box{
+  color: blue;
+    font-size: 2rem;
+    border: 1px solid #8c8c8c;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.delivery_Container{
+  display: flex;
+  justify-content: space-between;
+  padding: 57px;
+  align-items:center;
+}
+
+.truck{
+  padding: 8px;
+  font-size: 2rem;
+}
+
+.freeDeliverytext{
+  color: green;
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.last_deliveryFee{
+  font-weight: 600;
+  color: #737373;
+  font-size: 2rem;
+}
+
+.Phone_serviceBox{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 50px;
+}
+
+.Phone_serviceBox1{
+  width: 153px;
+  text-align: center;
+}
+
+.Phone_serviceBox2,.Phone_serviceBox3{
+  text-align: center;
+}
+
+.Warranty-details{
+  padding: 40px;
+  margin-top: 20px;
+}
+
+.Warranty-details p{  
+  font-size: 2rem;
+}
+
+.apple{
+  font-size: 35px;
+  padding: 0 13px;
+}
+
+.know_more{
+  color: blue;
+}
+
+.couponBox{
+  padding: 30px;
+}
+
+.SearchBar{
+  border: 1px solid #e3d3d3;
+  color: blue;
+  padding: 21px 30px;
+}
+
+.magnifying-lens{
+  font-size: 13px;
+  padding: 0px 6px;
+}
+
+.search_text{
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.Highlights{
+  padding: 15px;
+}
+
+.HighlightsItem{
+  padding: 15px 0px;
+}
+
+.highlight_cap{
+  font-weight: 500;
+  font-size: 3rem;
+}
+
+.HighlightsItemText1{
+  color: #a7a7a7;
+  font-size: 2.4rem;
+}
+
+.HighlightsItemText2{
+  font-weight: 400;
+  font-size: 2.4rem;
+}
+
+.HighlightsItemText3{
+  font-size: 2rem;
+  color: #a7a7a7;
+}
+
+.mobile_Buttons_cart{
+  padding: 2rem 7rem;
+  width: 50%;
+  background-color: #fff;
+  font-size: 3rem;
+}
+
+.mobile_Buttons_buy{
+  padding:2rem 9rem;
+  background-color: #fec200;
+  width: 50%;
+  font-size: 3rem;
+}
+
+.mobile_header-left{
+  display: flex;
+  align-items: center;
+}
+
+.arrow_left{
+  font-size: 3rem;
+}
+
+.mobile_header-right{
+  font-size: 3rem;
+}
+
+.best_seller{
+  position: absolute;
+  font-size: 2rem;
+  background-color: #0a9391;
+  top: 50px;
+  color: #fff;
+  padding: 3px;
+  font-weight: 500;
+  border-radius: 3px;
+}
+
+.mobile_phoneImage{
+  position: relative;
+}
+
+.color_text{
+  font-size: 4vw;
+}
+
+.5_more{
+  font-size: 4vw;
+}
+
+.storage_value{
+  font-size: 4vw;
+}
+
+.3_more{
+  font-size: 4vw;
+}
+
+.chipSet{
+  font-size: 2.4rem;
+}
+
+.phone_CaptionName{
+  font-size: 3rem;
+}
+
+.trophy{
+  font-size: 5rem;
+}
+
+.getAt{
+  font-size: 3rem;
+}
+
+.unbeat{
+  font-size: 2rem;
+}
+
+.down-arrow{
+  font-size: 2rem;
+}
+
+.seller_deliver{
+  font-size: 2.5rem;
+}
+
+.delivery-datem{
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.order_time{
+  font-size: 2.5rem;
+}
+
+.rightArrowm{
+  font-size: 2rem;
+}
+
+.replacement_service{
+font-size: 2rem;
+}
+
+.apple{
+  font-size: 6rem;
+}
+
+.show_more-con{
+  font-size: 2rem;
+}
+
+.angle_down{
+  padding: 0 10px;
+}
+
+.maglens{
+  font-size: 2rem;
+}
+
+.5_more,.3_more{
+  font-size: 2rem;
+}
+
+.otherDetailList{
+   font-size: 2rem;
+    font-weight: 600;
+    padding: 20px;
+}
+
+.otherdetail{
+  display: flex;
+  justify-content: space-between;
+}
 

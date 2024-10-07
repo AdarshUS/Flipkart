@@ -1,5 +1,6 @@
 body{
  background-color:#f2f3f5;
+ font-size:2rem;
 }
 
 .mobile_header{
@@ -345,3 +346,17 @@ font-size: 2rem;
   font-size: 2rem;
 }
 
+.5_more,.3_more{
+  font-size: 2rem;
+}
+
+.otherDetailList{
+   font-size: 2rem;
+    font-weight: 600;
+    padding: 20px;
+}
+
+.otherdetail{
+  display: flex;
+  justify-content: space-between;
+}
