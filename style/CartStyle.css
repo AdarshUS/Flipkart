@@ -185,23 +185,23 @@ main{
 
 .minus,.plus{
   width: 20px;
-    height: 20px;
-    border: 1px solid #8c8f92;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 12px;
+  height: 20px;
+  border: 1px solid #8c8f92;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
 }
 .one{
   width: 30px;
-    height: 20px;
-       display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0px 6px;
-   padding: 12px 20px;
-    border: 1px solid #8c8f92;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 6px;
+  padding: 12px 20px;
+  border: 1px solid #8c8f92;
 }
 
 .phoneCartItemsContainer{
@@ -273,9 +273,9 @@ main{
 
 .AddItem{
   background-color: #ff9f00;
-    color: #fff;
-    padding: 14px 4px;
-    text-align: center;
+  color: #fff;
+  padding: 14px 4px;
+  text-align: center;
  }
 
 .AddItemBox{
@@ -290,8 +290,8 @@ main{
 
 .1year_text{
   font-size: 14px;
-    color: #adaaa1;
-    padding: 3px 0;
+  color: #adaaa1;
+  padding: 3px 0;
 }
 
 .protection_price{
@@ -300,7 +300,7 @@ main{
 
 .protection_Currentprice{
   font-weight: 600;
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .protection_Oldprice{
@@ -313,19 +313,19 @@ main{
 
 .placeOrder_Container{
   height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    position: sticky;
-    bottom: 0;
-    background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: sticky;
+  bottom: 0;
+  background-color: #fff;
 }
 
 .placeOrder_Box{
   background-color: #fb641b;
-    color: #fff;
-    padding: 13px 46px;
+  color: #fff;
+  padding: 13px 46px;
 }
 
 .priceCalculate_Item1,.priceCalculate_Item2{
@@ -335,14 +335,14 @@ main{
 }
 
 .priceCalculate_Item3{
-   display: flex;
-   justify-content: space-between;
-   padding: 12px 25px;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 25px;
 }
 
 .priceCalculate_Item3-oldFee{
-   padding: 0 7px;
-   color: #757678;
+  padding: 0 7px;
+  color: #757678;
 }
 
 .priceCalculate_Item4{
@@ -377,6 +377,6 @@ footer{
 }
 
 .protectionBoxCap{
-   font-weight: 600;
-   font-size: 15px;
+  font-weight: 600;
+  font-size: 15px;
 }
