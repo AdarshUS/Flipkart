@@ -83,8 +83,7 @@ nav > div{
 .main_filterContainer-filter{
   background-color:#fff;
   width: 304px;
-  padding: 14px;
-  border: 1px solid;
+  padding: 14px;  
   margin: 10px;
 }
 
@@ -122,6 +121,7 @@ nav > div{
 
 main{
  display:flex;
+ background-color:#f1f4fb;
  
 }
 
@@ -133,9 +133,9 @@ main{
 
 .main_productContainer{
   padding: 10px;
-  margin: 10px;
-  border: 1px solid;
+  margin: 10px; 
   width: 77%;
+  background-color:#fff;
 }
 
 .main_productItem1{
