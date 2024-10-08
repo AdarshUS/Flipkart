@@ -9,6 +9,13 @@ body {
   font-family: arial;
 }
 
+@media (max-width:992)
+{
+ body{
+  font-size:2rem;
+}
+}
+
 header {
   background-color: #2873f0;
   align-items: center;
@@ -661,20 +668,22 @@ nav > div {
 }
 
 .Phone_serviceBox {
-  display: flex;
-  justify-content: center;
+  display: flex;  
   margin-top: 20px;
-  padding: 50px;
+  padding: 30px;
+  font-size: 2rem;
+  justify-content: space-around;
 }
 
 .Phone_serviceBox1 {
-  width: 153px;
+  width: 22vw;
   text-align: center;
 }
 
 .Phone_serviceBox2,
 .Phone_serviceBox3 {
   text-align: center;
+  padding: 10px;
 }
 
 .Warranty-details {
@@ -842,10 +851,6 @@ nav > div {
   font-size: 2rem;
 }
 
-.replacement_service {
-  font-size: 2rem;
-}
-
 .apple {
   font-size: 6rem;
 }
@@ -876,4 +881,62 @@ nav > div {
 .otherdetail {
   display: flex;
   justify-content: space-between;
+  background-color: #f1f4fb;
+}
+
+.otherDetailCont{
+  font-size: 2rem;
+  padding: 13px;
+}
+
+.warrantyContainer{
+  font-size: 2rem;
+  padding: 13px;
+}
+
+.warrantyContainer-cap{
+  font-weight: 600;
+  padding: 20px;
+}
+
+.pro-highl{
+  padding: 13px;
+}
+
+.pro-highlCap{
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+}
+
+.pro-highltext{
+  font-weight: 600;
+}
+
+.angleup{
+  padding: 0 10px;
+}
+
+.allDetail{
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+}
+
+.angle-right{
+  padding: 0 11px;
+}
+
+.Ratingsreviewrow1{
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+}
+
+.otherDetailCont > div{
+ padding:20px;
+}
+
+.pro-highlImage img{
+  width:100%;
 }
