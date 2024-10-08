@@ -166,8 +166,7 @@ footer ul li {
   list-style-type: none;
 }
 
-footer div div {
-  color: #807e7a;
+footer div div {  
   font-size: 13px;
 }
 
@@ -237,7 +236,7 @@ footer {
   display: flex;
 }
 
-contact {
+.contact {
   line-height: 18px;
 }
 
