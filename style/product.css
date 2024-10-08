@@ -1,0 +1,942 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f3f7;
+  font-family: arial;
+}
+
+@media (max-width:992)
+{
+ body{
+  font-size:2rem;
+}
+}
+
+header {
+  background-color: #2873f0;
+  align-items: center;
+  height: 56px;
+}
+
+.header_searchBar {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  margin-left: 9px;
+  height: 37px;
+}
+
+.header_logo {
+  margin-left: 11%;
+}
+
+.header_searchBar input {
+  border: 0;
+  outline: none;
+  width: 100%;
+  background-color: #fff;
+}
+
+.login-btn {
+  padding: 5px 50px;
+  background-color: #fff;
+  text-decoration: none;
+  margin: 0 30px;
+  font-weight: 500;
+  color: #2873f0;
+}
+
+.header_seller,
+.header_more,
+.header_cart {
+  margin: 0 30px;
+  color: #fff;
+  font-weight: 500;
+}
+.glass {
+  color: #2873f0;
+}
+
+.glass_container {
+  padding: 0 10px;
+}
+
+.header-text {
+  padding: 0 8px;
+}
+
+nav {
+  display: flex;
+  height: 35px;
+  border-bottom: 1px solid #d2d3d6;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+nav > div {
+  padding: 0 28px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.ImageContainer {
+  display: flex;
+  border: 1px solid black;
+  margin: 25px;
+}
+
+.buttonBox a i {
+  display: inline-block;
+  padding: 10px;
+}
+
+.buttonBox .buttonBox_cart {
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff9f00;
+  margin-right: 1vw;
+  width: 46%;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonBox .buttonBox_buynow {
+  background-color: #fb641b;
+  text-decoration: none;
+  color: #fff;
+  width: 43%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainrightTopItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px 0px 20px;
+  align-items: center;
+}
+
+.mainrightTopItem2 {
+  display: flex;
+  gap: 30px;
+  font-size: 15px;
+}
+
+.review {
+  display: flex;
+  padding: 0px 20px;
+  align-items: center;
+}
+
+.rate {
+  background-color: green;
+  color: #fff;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  padding: 0 5px;
+  border-radius: 7px;
+  height: 21px;
+}
+
+.mainleft {
+  background-color: #fff;
+  margin-left: 6vw;
+  position: sticky;
+  height: 100vh;
+  top: 2px;
+}
+
+.mainright {
+  background-color: #fff;
+  width: 60%;
+}
+
+.mainrightTopItem1 {
+  font-size: 12px;
+  color: #a7a7a7;
+}
+
+.phoneName {
+  padding: 4px 20px;
+}
+
+.NumRate {
+  color: #8d838a;
+  font-size: 15px;
+  padding: 0px 5px;
+  font-weight: 600;
+}
+
+.offamt {
+  color: green;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 5px 20px;
+}
+
+.amount {
+  padding: 1px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.amount_current {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.amount del {
+  padding: 0 6px;
+  color: #8d838a;
+}
+
+.info {
+  padding: 0 5px;
+}
+
+.package_fee {
+  padding-left: 20px;
+}
+
+.off_percent {
+  color: green;
+}
+
+.avl_offer {
+  padding: 8px 20px;
+  font-weight: 600;
+}
+
+.offer_list {
+  list-style-type: none;
+  font-size: 14px;
+}
+
+.offer_list li {
+  padding: 5px 14px;
+}
+
+.offer_list li .tag {
+  color: green;
+  padding: 0 9px;
+}
+
+.offer_list li .priceBold {
+  font-weight: bold;
+}
+
+.ExchangeBox {
+  width: 390px;
+  border: 1px solid #dfdfdf;
+}
+
+.Buy_without {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f5fafe;
+  padding: 12px;
+}
+
+.Buy_without input,
+.Buy_withRow1 input {
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.Buy_withRow1 {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 12px;
+}
+
+.Buy_withoutItem1 {
+  font-size: 15px;
+}
+
+.Buy_withItem2 {
+  font-size: 13px;
+}
+
+.Buy_withItem3 {
+  font-size: 15px;
+}
+
+.more_offers {
+  color: #2873f0;
+  padding-left: 1vw;
+}
+
+.applelogoBox {
+  border: 1px solid #c8c8c8;
+  display: inline-block;
+  padding: 5px 28px;
+}
+
+.apple-logo {
+  font-size: 21px;
+}
+
+.know_more {
+  color: #5c7dc8;
+  padding: 0.5rem;
+  font-weight: 600;
+}
+
+.colorContainer {
+  display: flex;
+}
+
+.colorContainer_storage {
+  display: flex;
+}
+
+.warrantyrow {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0 1rem 0rem;
+}
+
+.storage_value {
+  border: 1px solid blue;
+  color: blue;
+  padding: 6px;
+  font-weight: 600;
+  margin: 0 1rem;
+}
+
+.storage_value2 {
+  border: 1px solid #adaaa1;
+  color: #000;
+}
+
+.inputBar {
+  border-bottom: 2px solid blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 18vw;
+}
+
+.inputBar input {
+  border: 0;
+  outline: none;
+  width: 100%;
+}
+
+.delivery_date {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.free_text {
+  font-size: 14px;
+  color: green;
+}
+
+.old-dp {
+  padding: 0 5px;
+}
+
+.colorContainer_text {
+  color: #757678;
+}
+
+.deliveryContainerText {
+  color: #757678;
+}
+
+.ordered_before {
+  font-size: 13px;
+}
+
+.viewDetails {
+  font-size: 14px;
+  color: #2873f0;
+}
+
+.highlightsContainer {
+  display: flex;
+}
+
+.highlightText {
+  color: #757678;
+}
+
+.easy_payment ul,
+.highlightsContainer ul {
+  font-size: 14px;
+}
+
+.easy_payment ul li,
+.highlightsContainer ul li {
+  padding: 3px;
+}
+
+.easy_payment {
+  display: flex;
+}
+
+.easy_payopt {
+  color: #757678;
+}
+
+.view-details {
+  padding-left: 18px;
+  font-size: 14px;
+  color: #2873f0;
+}
+
+.Seller {
+  display: flex;
+}
+
+.seller_text {
+  color: #757678;
+}
+
+.retailDetails_row {
+  display: flex;
+}
+
+.ngretails {
+  color: #2873f0;
+  font-size: 13px;
+}
+
+.retail_rate {
+  background-color: #2873f0;
+  color: #fff;
+  font-size: 12px;
+  width: 11%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin: 0 9px;
+}
+.Description_text {
+  color: #757678;
+  padding: 10px;
+}
+
+.seeOther {
+  color: #2873f0;
+}
+
+.Description {
+  display: flex;
+}
+
+.dynamic_note {
+  padding: 10px;
+}
+
+.productDescription {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.dynamicisland {
+  display: flex;
+}
+
+.dynamicisland_text {
+  font-weight: 600;
+}
+
+.higlydurabl {
+  display: flex;
+}
+
+.higlydurablcap {
+  font-weight: 600;
+}
+
+.higlydurablnote {
+  padding: 12px;
+}
+
+.viewAllfea {
+  color: #2873f0;
+}
+
+.specifications {
+  font-weight: 600;
+  font-size: 19px;
+}
+
+.generalBoxrow {
+  display: flex;
+  font-size: 14px;
+  padding: 3px 0px;
+}
+
+.generalBoxrowItem1 {
+  width: 22%;
+}
+
+.specifications {
+  padding: 20px 0px;
+}
+
+.general_text {
+  padding: 7px 0;
+}
+
+.readmore {
+  font-size: 14px;
+  color: #2873f0;
+}
+
+.RatingReviewrow1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.RatingReviewText {
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.rt-product {
+  border: 1px solid;
+  padding: 9px 28px;
+  font-weight: 600;
+}
+
+.RatingReviewrow2 {
+  display: flex;
+  font-size: 13px;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.overall_rate {
+  font-size: 18px;
+}
+
+.mobile_header {
+  padding: 26px 30px;
+}
+
+.flipLogo {
+  display: inline-block;
+  margin: 0 12px;
+}
+
+.varaint {
+  padding: 20px;
+  border-bottom: 1px solid #a7a7a7;
+  font-size: 3rem;
+}
+
+.color {
+  border-bottom: 1px solid #a7a7a7;
+  padding: 15px;
+}
+
+.storage {
+  padding: 15px;
+  border-bottom: 1px solid #a7a7a7;
+}
+
+.chipSet {
+  background-color: #c0def9;
+  color: #5c82b1;
+  margin-left: 2vw;
+}
+
+.phone_Caption {
+  margin-top: 1vh;
+}
+
+.phone_CaptionName {
+  padding: 9px 13px;
+}
+
+.ratingBox {
+  padding-left: 13px;
+}
+
+.trophy {
+  font-size: 31px;
+  color: blue;
+}
+
+.offerBox_Item1 {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.offerBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #5c82b1;
+  background-color: #d3e3fd;
+  padding: 30px;
+  margin: 30px;
+}
+
+.freedelivery {
+  font-size: 2rem;
+  padding-left: 12px;
+}
+
+.off-percent {
+  font-size: 4rem;
+  font-weight: 600;
+  color: green;
+  padding-left: 12px;
+}
+.Last_price {
+  font-size: 4rem;
+  font-weight: 600;
+  color: #737373;
+  padding: 0 9px;
+}
+
+.ratingNum {
+  font-size: 2rem;
+  color: #424fc8;
+}
+
+.starBox {
+  color: green;
+  font-size: 2rem;
+}
+
+.discountSaleimg {
+  display: inline-block;
+  margin-left: 12px;
+}
+
+.old_price {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.seller_details {
+  display: flex;
+  justify-content: space-between;
+  padding: 39px;
+  background-color: white;
+  border-bottom: 3px solid #e6e6e6;
+}
+
+.pincode_box {
+  color: blue;
+  font-size: 2rem;
+  border: 1px solid #8c8c8c;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.delivery_Container {
+  display: flex;
+  justify-content: space-between;
+  padding: 57px;
+  align-items: center;
+}
+
+.truck {
+  padding: 8px;
+  font-size: 2rem;
+}
+
+.freeDeliverytext {
+  color: green;
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.last_deliveryFee {
+  font-weight: 600;
+  color: #737373;
+  font-size: 2rem;
+}
+
+.Phone_serviceBox {
+  display: flex;  
+  margin-top: 20px;
+  padding: 30px;
+  font-size: 2rem;
+  justify-content: space-around;
+}
+
+.Phone_serviceBox1 {
+  width: 22vw;
+  text-align: center;
+}
+
+.Phone_serviceBox2,
+.Phone_serviceBox3 {
+  text-align: center;
+  padding: 10px;
+}
+
+.Warranty-details {
+  padding: 40px;
+  margin-top: 20px;
+}
+
+.Warranty-details p {
+  font-size: 2rem;
+}
+
+.apple {
+  font-size: 35px;
+  padding: 0 13px;
+}
+
+.know_more {
+  color: blue;
+}
+
+.couponBox {
+  padding: 30px;
+}
+
+.SearchBar {
+  border: 1px solid #e3d3d3;
+  color: blue;
+  padding: 21px 30px;
+}
+
+.magnifying-lens {
+  font-size: 13px;
+  padding: 0px 6px;
+}
+
+.search_text {
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.Highlights {
+  padding: 15px;
+}
+
+.HighlightsItem {
+  padding: 15px 0px;
+}
+
+.highlight_cap {
+  font-weight: 500;
+  font-size: 3rem;
+}
+
+.HighlightsItemText1 {
+  color: #a7a7a7;
+  font-size: 2.4rem;
+}
+
+.HighlightsItemText2 {
+  font-weight: 400;
+  font-size: 2.4rem;
+}
+
+.HighlightsItemText3 {
+  font-size: 2rem;
+  color: #a7a7a7;
+}
+
+.mobile_Buttons_cart {
+  padding: 2rem 7rem;
+  width: 50%;
+  background-color: #fff;
+  font-size: 3rem;
+}
+
+.mobile_Buttons_buy {
+  padding: 2rem 9rem;
+  background-color: #fec200;
+  width: 50%;
+  font-size: 3rem;
+}
+
+.mobile_header-left {
+  display: flex;
+  align-items: center;
+}
+
+.arrow_left {
+  font-size: 3rem;
+}
+
+.mobile_header-right {
+  font-size: 3rem;
+}
+
+.best_seller {
+  position: absolute;
+  font-size: 2rem;
+  background-color: #0a9391;
+  top: 50px;
+  color: #fff;
+  padding: 3px;
+  font-weight: 500;
+  border-radius: 3px;
+}
+
+.mobile_phoneImage {
+  position: relative;
+}
+
+.color_text {
+  font-size: 4vw;
+}
+
+.5_more {
+  font-size: 4vw;
+}
+
+.storage_value {
+  font-size: 4vw;
+}
+
+.3_more {
+  font-size: 4vw;
+}
+
+.chipSet {
+  font-size: 2.4rem;
+}
+
+.phone_CaptionName {
+  font-size: 3rem;
+}
+
+.trophy {
+  font-size: 5rem;
+}
+
+.getAt {
+  font-size: 3rem;
+}
+
+.unbeat {
+  font-size: 2rem;
+}
+
+.down-arrow {
+  font-size: 2rem;
+}
+
+.seller_deliver {
+  font-size: 2.5rem;
+}
+
+.delivery-datem {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.order_time {
+  font-size: 2.5rem;
+}
+
+.rightArrowm {
+  font-size: 2rem;
+}
+
+.apple {
+  font-size: 6rem;
+}
+
+.show_more-con {
+  font-size: 2rem;
+}
+
+.angle_down {
+  padding: 0 10px;
+}
+
+.maglens {
+  font-size: 2rem;
+}
+
+.5_more,
+.3_more {
+  font-size: 2rem;
+}
+
+.otherDetailList {
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 20px;
+}
+
+.otherdetail {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f1f4fb;
+}
+
+.otherDetailCont{
+  font-size: 2rem;
+  padding: 13px;
+}
+
+.warrantyContainer{
+  font-size: 2rem;
+  padding: 13px;
+}
+
+.warrantyContainer-cap{
+  font-weight: 600;
+  padding: 20px;
+}
+
+.pro-highl{
+  padding: 13px;
+}
+
+.pro-highlCap{
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+}
+
+.pro-highltext{
+  font-weight: 600;
+}
+
+.angleup{
+  padding: 0 10px;
+}
+
+.allDetail{
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+}
+
+.angle-right{
+  padding: 0 11px;
+}
+
+.Ratingsreviewrow1{
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+}
+
+.otherDetailCont > div{
+ padding:20px;
+}
+
+.pro-highlImage img{
+  width:100%;
+}

@@ -1,0 +1,382 @@
+*{
+ padding:0;
+ margin:0;
+ box-sizing:border-box;
+}
+
+body{ 
+ font-family: Inter, -apple-system, Helvetica, Arial, sans-serif;
+ background-color: #f1f3f6;
+}
+
+header{
+ display:flex;
+ background-color:#2873f0;
+ align-items: center;
+ height: 56px;
+ position:sticky;
+ top: 0;
+ z-index: 12;
+}
+
+.header_searchBar{
+  width: 35%;
+  display: flex;
+  align-items: center;
+  background-color:#fff;
+  margin-left: 9px;  
+  height: 37px;
+}
+
+.header_logo{
+  margin-left: 11%;
+}
+
+.header_searchBar input{
+  border: 0;
+  outline: none;
+  width: 100%;
+  background-color:#fff;
+}
+
+.login-btn{
+  padding: 5px 50px;
+  background-color:#fff;
+  text-decoration:none;
+  margin: 0 30px;
+  font-weight:500;
+  color:#2873f0;
+}
+
+.header_seller,.header_more,.header_cart{
+   margin: 0 30px;
+   color:#fff;
+   font-weight:500;
+}
+.glass{
+  color:#2873f0;
+}
+
+.glass_container{
+  padding: 0 10px;
+}
+
+.header-text{
+  padding:0 8px;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.adressBox{
+  display: flex;
+  justify-content: space-between;
+  height: 74px;
+  background-color: #fff;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 14px;
+}
+
+.main_box1{
+  width: 865.03px;
+  margin-right: 13px;
+  border: 2px solid #eaeaed;
+}
+
+.homebox{
+  width: 36px;
+  height: 16px;
+  font-size: 10px;
+  background-color: #f0f2f5;  
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home{
+  display: flex;
+  gap: 10px;
+  padding: 6px 0px;
+}
+
+.home p{
+  font-size: 14px;
+}
+
+.adressBoxItem1{
+  height: 57px;
+  color:#8c8f92;
+}
+
+.adressName{
+  font-weight: 600;
+}
+
+.main_box2{
+  width: 362px;
+  background-color: #fff;
+  height: 331px;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+
+.changeBox{
+  color: blue;
+  border: 1px solid #efefef;
+  padding: 6px 13px;
+  border-radius: 4px;
+}
+
+.phoneCartItems{
+  background-color: #fff;
+  display: flex;
+}
+
+.phoneImage{
+  padding: 18px 30px;
+}
+
+.phoneDetails{
+  padding: 18px 0px;
+}
+
+.seller-retail{
+  display: flex;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+.phoneDetails_price{
+  padding: 5px 0px;
+}
+
+.green-text{
+  color: green;
+}
+.info{
+  padding: 5px;
+}
+
+.deliverydate{
+  margin-left: 120px;
+  margin-top: 12px;
+ font-size: 14px;
+}
+
+.deliverydate del{
+  padding: 0 6px;
+}
+
+.No_ofItems{
+  display: flex;
+  gap: 23px;
+  align-items: center;
+  padding-left: 26px;
+}
+
+.No_ofItems-Buttons{
+  display: flex;
+  align-items: center;
+}
+
+.minus,.plus{
+  width: 20px;
+  height: 20px;
+  border: 1px solid #8c8f92;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+}
+.one{
+  width: 30px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 6px;
+  padding: 12px 20px;
+  border: 1px solid #8c8f92;
+}
+
+.phoneCartItemsContainer{
+  background-color: #fff;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #f9f9f9;
+}
+
+.main_box2-caption{
+  color: #898989;
+  padding: 20px;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.priceCalculate{
+  border-bottom: 1px dashed #dfdfdf;
+}
+
+.totalamt{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px 20px 20px;
+  border-bottom: 1px dashed #dfdfdf;
+}
+
+.saving-amt{
+  padding: 20px;
+  font-weight: 600;
+}
+
+.seller_name{
+  font-size: 13px;
+  color: #95938d;
+}
+
+.old-price{
+  font-weight: 600;
+  color: #95938d;
+  font-size: 14px;
+}
+
+.current-price{
+  font-weight: 600;
+  padding: 0 10px;
+}
+
+.offer-applied{
+ font-size: 15px;
+}
+
+.packaging-fee{
+  font-size: 13px;
+}
+
+.old_deliveryFee{
+  padding: 0 7px;
+}
+
+.save_later{
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.protectionBoxcontent{
+  display: flex;
+  gap: 40px;
+  padding: 15px;
+}
+
+.AddItem{
+  background-color: #ff9f00;
+  color: #fff;
+  padding: 14px 4px;
+  text-align: center;
+ }
+
+.AddItemBox{
+  width: 272px;
+ }
+
+.protectionBox{
+  padding: 16px;
+  background-color: #f4f9ff;
+}
+
+
+.1year_text{
+  font-size: 14px;
+  color: #adaaa1;
+  padding: 3px 0;
+}
+
+.protection_price{
+  padding: 10px 0;
+}
+
+.protection_Currentprice{
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.protection_Oldprice{
+  color: #adaaa1;
+}
+
+.No_ofItemsCount{
+  padding: 10px 26px;
+}
+
+.placeOrder_Container{
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: sticky;
+  bottom: 0;
+  background-color: #fff;
+}
+
+.placeOrder_Box{
+  background-color: #fb641b;
+  color: #fff;
+  padding: 13px 46px;
+}
+
+.priceCalculate_Item1,.priceCalculate_Item2{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 25px 0 25px;
+}
+
+.priceCalculate_Item3{
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 25px;
+}
+
+.priceCalculate_Item3-oldFee{
+  padding: 0 7px;
+  color: #757678;
+}
+
+.priceCalculate_Item4{
+  padding: 7px 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  font-size: 13px;
+  color: #757678;
+}
+
+.footer_Item1{
+  display: flex;
+  padding-left: 25px;
+}
+
+.copyright{
+  padding: 0 20px;
+}
+
+.need_help{
+  padding: 0 29px;
+}
+
+.blue-text{
+  color: #6384d2;
+}
+
+.protectionBoxCap{
+  font-weight: 600;
+  font-size: 15px;
+}

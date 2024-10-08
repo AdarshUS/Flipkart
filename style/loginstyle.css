@@ -1,0 +1,230 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f3f7;
+  font-family: arial;
+}
+
+header {
+  display: flex;
+  background-color: #2873f0;
+  align-items: center;
+  height: 56px;
+}
+
+.header_searchBar {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  margin-left: 9px;
+  height: 37px;
+}
+
+.header_logo {
+  margin-left: 11%;
+}
+
+.header_searchBar input {
+  border: 0;
+  outline: none;
+  width: 100%;
+  background-color: #fff;
+}
+
+.login-btn {
+  padding: 5px 50px;
+  background-color: #fff;
+  text-decoration: none;
+  margin: 0 30px;
+  font-weight: 500;
+  color: #2873f0;
+}
+
+.header_seller,
+.header_more,
+.header_cart {
+  margin: 0 30px;
+  color: #fff;
+  font-weight: 500;
+}
+.glass {
+  color: #2873f0;
+}
+
+.glass_container {
+  padding: 0 10px;
+}
+
+.header-text {
+  padding: 0 8px;
+}
+
+nav {
+  display: flex;
+  height: 35px;
+  border-bottom: 1px solid #d2d3d6;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+nav > div {
+  padding: 0 28px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.Login_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 72vh;
+}
+
+.Login_Box1 {
+  width: 336px;
+  height: 526px;
+  background-color: #2873f0;
+}
+
+.Login_Box1-text {
+  font-size: 27px;
+  color: #fff;
+  padding: 40px;
+}
+
+.Login_Box1 p {
+  color: #fff;
+  padding-left: 40px;
+  line-height: 26px;
+}
+
+.loginImageContainer {
+  padding: 0px 50px;
+  padding-top: 182px;
+}
+
+.Login_Box2 {
+  width: 504px;
+  height: 528px;
+  background-color: #fff;
+}
+
+.otp-btn {
+  text-decoration: none;
+  padding: 12px 137px;
+  background-color: #f86718;
+  color: #fff;
+  margin-left: 35px;
+  display: inline-block;
+}
+
+.login-btn2 {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px 102px;
+  margin: 10px 0px;
+  margin-left: 35px;
+  color: #2873f0;
+  box-shadow: rgba(14, 63, 126, 0.04) 0px 0px 0px 1px,
+    rgba(42, 51, 69, 0.04) 0px 1px 1px -0.5px,
+    rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px,
+    rgba(42, 51, 70, 0.04) 0px 6px 6px -3px,
+    rgba(14, 63, 126, 0.04) 0px 12px 12px -6px,
+    rgba(14, 63, 126, 0.04) 0px 24px 24px -12px;
+}
+
+.Login_Box2 input {
+  border: 0;
+  outline: none;
+  width: 100%;
+}
+
+.Login_Box2 input::placeholder {
+  font-size: 15px;
+}
+
+.Login_Box2-inputBox {
+  border-bottom: 1px solid #dfdfdf;
+  width: 417px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  margin-left: 36px;
+  margin-top: 55px;
+}
+
+.Login_Box2-termsCondition {
+  padding: 30px 0px;
+  font-size: 12px;
+  color: #95938d;
+  margin-left: 35px;
+}
+
+.Login_Box2-termsConditionLink {
+  color: #2873f0;
+}
+
+.Login_Box2-bottomText {
+  color: #2873f0;
+  font-size: 14px;
+  margin-top: 61%;
+  margin-left: 127px;
+  font-weight: 600;
+}
+
+footer {
+  background-color: #172437;
+  color: #fff;
+  height: 351px;
+}
+
+.footerItem {
+  font-size: 13px;
+  width: 345px;
+  padding: 40px;
+}
+
+.footerItemCaption {
+  color: #606971;
+  padding: 10px 0px;
+}
+
+.footerItem ul li {
+  list-style-type: none;
+  line-height: 25px;
+}
+
+.footer_Container {
+  display: flex;
+}
+
+contact {
+  line-height: 18px;
+}
+
+.footerBottom_container {
+  display: flex;
+  justify-content: space-around;
+  font-size: 13px;
+}
+
+.suitcase,
+.star,
+.gift-card,
+.Question,
+.cpright {
+  padding: 0 6px;
+}
+
+.suitcase,
+.star,
+.gift-card,
+.Question {
+  color: yellow;
+}

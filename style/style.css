@@ -1,0 +1,263 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f2f4;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  height: 60px;
+  align-items: center;
+}
+
+.header_searchBar {
+  width: 46%;
+  display: flex;
+  align-items: center;
+  background-color: #f1f5ff;
+  border-radius: 10px;
+  height: 37px;
+}
+
+.header_logo {
+  margin-left: 50px;
+}
+
+.header_searchBar input {
+  border: 0;
+  outline: none;
+  width: 100%;
+  background-color: #f1f5ff;
+}
+
+.header_menu {
+  display: flex;
+}
+
+.header_menu-user img,
+.header_menu-cart img,
+.header_menu-seller img {
+  display: block;
+  margin: auto;
+}
+
+.header_menu > div {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header_searchBar img {
+  display: inline-block;
+  margin: 0px 10px;
+}
+
+.header_menu-text {
+  padding: 0px 8px;
+}
+
+.ItemsContainer {
+  background-color: #fff;
+  width: 98%;
+  height: 133px;
+  margin: 11px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ItemsContainer .ItemsContainer_box {
+  display: flex;
+}
+
+.ItemsContainer_box-Image {
+  display: flex;
+  justify-content: center;
+}
+
+.ItemsContainer_boxItem {
+  padding: 20px;
+}
+
+.ItemsContainer_boxItem:nth-child(7) {
+  margin-top: 11px;
+}
+
+.ItemsContainer_boxItem:nth-child(3) {
+  margin-top: 3px;
+}
+
+.ItemsContainer_boxItem:nth-child(4) {
+  margin-top: 4px;
+}
+
+.ItemsContainer_boxItem:nth-child(6) {
+  margin-top: 4px;
+}
+.ItemsContainer_boxItem:nth-child(9) {
+  margin-top: 9px;
+}
+
+.ItemsContainer_boxItem .caption {
+  padding: 8px 0px;
+}
+
+.ElectronicsBox1 {
+  background-color: #fff;
+  width: 64%;
+  height: 250px;
+  margin-left: 15px;
+  display: flex;
+  gap: 12px;
+}
+
+.ElectronicsBoxItems {
+  border: 1px solid #dfdfdf;
+  width: 210px;
+  height: 250px;
+}
+
+.ElectronicsBox_text-arrow {
+  background-color: #2950e4;
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ElectronicsBox_text-arrow .arrow {
+  color: white;
+}
+
+.ElectronicsBox {
+  width: 88%;
+  background-color: #fff;
+  margin: 11px 15px;
+  display: flex;
+}
+
+.ElectronicsBox div {
+  text-align: center;
+}
+
+.ElectronicsBox_rupee {
+  font-weight: 600;
+}
+
+.box-1 {
+  width: 97%;
+}
+
+.ElectronicsBox_text {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer ul li {
+  list-style-type: none;
+}
+
+footer div div {
+  color: #807e7a;
+  font-size: 13px;
+}
+
+.footerItem {
+  padding: 20px;
+  font-size: 13px;
+}
+
+.topstories {
+  font-weight: 600;
+  padding: 20px 20px 0 20px;
+  margin-top: 20px;
+}
+
+.most-search,
+.mobiles,
+.laptop,
+.tvs,
+.appliance,
+.footwear,
+.bgmh {
+  font-size: 14px;
+  padding: 4px 20px;
+}
+
+.flipDestination_cap,
+.flipplus_cap,
+.emi_cap,
+.emdebitcard_cap {
+  font-size: 18px;
+  font-weight: 600;
+  color: #8d8985;
+  padding: 5px 20px;
+}
+
+.flipDestination p,
+.flipplus p,
+.emi p,
+.emdebitcard p {
+  padding: 4px 20px;
+  font-size: 13px;
+}
+
+footer {
+  background-color: #172437;
+  color: #fff;
+  height: 351px;
+}
+
+.footerItem {
+  font-size: 13px;
+  width: 345px;
+  padding: 40px;
+}
+
+.footerItemCaption {
+  color: #606971;
+  padding: 10px 0px;
+}
+
+.footerItem ul li {
+  list-style-type: none;
+  line-height: 25px;
+}
+
+.footer_Container {
+  display: flex;
+}
+
+contact {
+  line-height: 18px;
+}
+
+.footerBottom_container {
+  display: flex;
+  justify-content: space-around;
+  font-size: 13px;
+}
+
+.suitcase,
+.star,
+.gift-card,
+.Question,
+.cpright {
+  padding: 0 6px;
+}
+
+.suitcase,
+.star,
+.gift-card,
+.Question {
+  color: yellow;
+}
